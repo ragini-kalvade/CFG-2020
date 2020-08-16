@@ -1,0 +1,60 @@
+<html>
+    <title>
+        Dash Board
+    </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href='dashboard.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+    
+    <body>
+
+        <!----------navigation -------->
+        <section id='nav-bar'>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="https://www.thebetterdesign.org/"><img src="images/logo.jpg"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item active" >
+                       <span><i>Welcome <span class="username">ABC</span>!</i></span>
+                      </li>
+                    <li class="nav-item active" >
+                      <a class="nav-link" href="login.html">SIGN OUT</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+
+        <!---------------Drop down--------->
+        <div class="limiter">
+            <div class="container-login100">
+                <div class="wrap-login100">
+                   <form method="POST" action="" class="inside_form">
+                    <p class="para"> Choose the Subject and Grade to post materials</p>
+                        <input type="radio" id="GxSa" name="subgrade" >
+                        <label for="GxSa">Grade X Subject A</label><br>
+                        <input type="radio" id="GxSb" name="subgrade" >
+                        <label for="GxSb">Grade X Subject B</label><br>
+                        <input type="radio" id="GxSa" name="subgrade">
+                        <label for="GySa">Grade Y Subject A</label><br>
+                        <input type="radio" id="GxSa" name="subgrade">
+                        <label for="GySb">Grade Y Subject B</label><br>
+                        <input type="radio" id="GzSa" name="subgrade">
+                        <label for="GzSa">Grade Z Subject A</label><br>
+                        <button type="button" class="btn btn-success btn_submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
