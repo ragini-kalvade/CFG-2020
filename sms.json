@@ -1,0 +1,19 @@
+{
+	"balance":1162,
+	"batch_id":123456789,
+	"cost":2,
+	"num_messages":2,
+	"message":{
+		"num_parts":1,
+		"content":"This is your message"
+	},
+	"messages":[{
+		"id":"1151346216",
+		"recipient":
+	},
+	{
+		"id":"1151347780",
+		"recipient":
+	}],
+	"status":"success"
+}
